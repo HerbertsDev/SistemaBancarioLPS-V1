@@ -1,31 +1,58 @@
-# SistemaBancarioLPS-V1
-Sistema bancário em Swift desenvolvido para praticar autenticação, controle de acesso, transações e fundamentos da linguagem.
+# Mack Bank
 
-# Mack Bank 
+Sistema bancário em Swift desenvolvido como projeto acadêmico para praticar fundamentos da linguagem, autenticação, controle de acesso e operações bancárias.
 
-Projeto acadêmico desenvolvido em Swift para praticar fundamentos da linguagem, estruturas de dados, funções, controle de fluxo e manipulação de opcionais.
+## Sobre o projeto
+
+O Mack Bank é uma aplicação de linha de comando (CLI) que simula operações básicas de um sistema bancário.
+
+O projeto foi desenvolvido utilizando Swift no Windows com Swift Package Manager.
 
 ## Funcionalidades
 
 - Criação de contas
-- Autenticação por número e senha
+- Autenticação por número da conta e senha
 - Diferenciação entre usuário e administrador
-- Consulta de saldo e dados
+- Consulta de dados e saldo
 - Depósitos
 - Transferências entre contas
+- Validação de saldo
 - Alteração de senha
+- Controle de sessão
+- Logout
 - Listagem de contas pelo administrador
 - Remoção de contas
-- Controle de sessão e logout
+- Proteção da conta administrativa
 
 ## Tecnologias
 
 - Swift 6
 - Swift Package Manager
-- Aplicação CLI
+- VS Code
 - Windows
+- Git
+- GitHub
 
-## Executando
+## Conceitos aplicados
 
-```bash
-swift run
+Durante o desenvolvimento foram utilizados conceitos como:
+
+- Structs
+- Arrays
+- Funções
+- Closures
+- Optionals
+- `guard let`
+- `inout`
+- Controle de fluxo
+- Validação de dados
+- Separação entre entrada de dados e lógica de negócio
+
+## Estrutura
+
+```text
+SistemaBancarioLPS
+├── Package.swift
+└── Sources
+    └── SistemaBancarioLPS
+        └── SistemaBancarioLPS.swift
